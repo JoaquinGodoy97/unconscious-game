@@ -1,1 +1,48 @@
 .env
+venv/
+.env.local
+.vscode/
+app/
+.env
+
+# Ignore temp files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore asset meta files
+/[Aa]ssets/**/*.meta
+/[Bb]uilds/**/*.meta
+
+# Ignore auto-generated Visual Studio files
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Ignore Unity system files
+sysinfo.txt
+*.stackdump
+
+# Ignore other files
+*.DS_Store
+*.apk
+*.aab
+*.unitypackage
+
